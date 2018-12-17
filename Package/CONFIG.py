@@ -41,6 +41,10 @@ def MAIN_INSTALL(args):
 
     return False
 
+def MAIN_SDKENV(args):
+    set_global(args)
+    return False
+
 def MAIN_CLEAN_BUILD(args):
     set_global(args)
     return False
